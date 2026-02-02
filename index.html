@@ -640,7 +640,7 @@ function startHacking() {
 
 /* =============== STAGE 3: WORDLE =============== */
 function initWordle(){
-  const SECRET='CUTEY',grid=document.getElementById('wordleGrid'),kb=document.getElementById('wordleKeyboard'),ctr=document.getElementById('wordle-container');
+  const SECRET='CUTIE',grid=document.getElementById('wordleGrid'),kb=document.getElementById('wordleKeyboard'),ctr=document.getElementById('wordle-container');
   let cRow=0,cCol=0,over=false,started=false;
   grid.innerHTML='';for(let i=0;i<30;i++){const c=document.createElement('div');c.className='wordle-cell';grid.appendChild(c);}
   const kbR=['QWERTYUIOP'.split(''),'ASDFGHJKL'.split(''),['ENTER',..."ZXCVBNM".split(''),'⌫']];
